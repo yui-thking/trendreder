@@ -55,28 +55,49 @@ schedule:
 platforms:
   enabled: true                         # 是否启用热榜平台抓取
   sources:
-    - id: "toutiao"
-      name: "今日头条"
-    - id: "baidu"
-      name: "百度热搜"
-    - id: "wallstreetcn-hot"
-      name: "华尔街见闻"
-    - id: "thepaper"
-      name: "澎湃新闻"
-    - id: "bilibili-hot-search"
-      name: "bilibili 热搜"
-    - id: "cls-hot"
-      name: "财联社热门"
-    - id: "ifeng"
-      name: "凤凰网"
-    - id: "tieba"
-      name: "贴吧"
-    - id: "weibo"
-      name: "微博"
-    - id: "douyin"
-      name: "抖音"
-    - id: "zhihu"
-      name: "知乎"
+  # === 综合新闻媒体类 ===
+  - id: "toutiao"
+    name: "今日头条"
+  - id: "thepaper"
+    name: "澎湃新闻"
+  - id: "ifeng"
+    name: "凤凰网"
+  - id: "cankaoxiaoxi"
+    name: "参考消息"
+
+  # === 财经投资类 ===
+  - id: "wallstreetcn-quick"
+    name: "华尔街见闻 快讯"
+  - id: "cls-hot"
+    name: "财联社热门"
+  - id: "xueqiu"
+    name: "雪球"
+  - id: "jin10"
+    name: "金十数据"
+
+  # === 社交/短视频/娱乐类 ===
+  - id: "weibo"
+    name: "微博"
+  - id: "douyin"
+    name: "抖音"
+  - id: "zhihu"
+    name: "知乎"
+  - id: "hupu"
+    name: "虎扑"
+
+  # === 科技类平台 ===
+  - id: "ithome"
+    name: "IT之家"
+  - id: "juejin"
+    name: "掘金"
+  - id: "github"
+    name: "GitHub"
+
+
+  # === 其他/工具类 ===
+  - id: "chongbuluo"
+    name: "虫部落"
+
 
 
 
