@@ -70,16 +70,10 @@ platforms:
     name: "华尔街见闻 快讯"
   - id: "cls-hot"
     name: "财联社热门"
-  - id: "xueqiu"
-    name: "雪球"
-  - id: "jin10"
-    name: "金十数据"
 
   # === 社交/短视频/娱乐类 ===
   - id: "weibo"
     name: "微博"
-  - id: "douyin"
-    name: "抖音"
   - id: "zhihu"
     name: "知乎"
   - id: "hupu"
@@ -88,8 +82,6 @@ platforms:
   # === 科技类平台 ===
   - id: "ithome"
     name: "IT之家"
-  - id: "juejin"
-    name: "掘金"
   - id: "github"
     name: "GitHub"
 
